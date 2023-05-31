@@ -1,3 +1,38 @@
+.file-upload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.file-upload:hover {
+  border-color: #aaa;
+}
+
+.file-upload.active {
+  border-color: #008000;
+}
+
+.file-upload-icon {
+  font-size: 48px;
+  color: #ccc;
+}
+
+.file-upload-text {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #aaa;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+}
+
 .App {
   text-align: center;
 }
