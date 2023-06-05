@@ -15,9 +15,11 @@ function App() {
         alert(JSON.stringify(`${res.message}, status: ${res.status}`));
     };
 
+
     return (
-        <div className="App">
+        <div className="box">
             <form onSubmit={handleSubmit(onSubmit)}>
+                <h3>Upload CSV Files less then 50 MB</h3>
                 <input type="file" {...register("file")} />
                 <input type="submit" />
             </form>
