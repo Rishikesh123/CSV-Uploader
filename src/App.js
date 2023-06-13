@@ -26,6 +26,7 @@ function App() {
             <input
               class="form-control"
               type="file"
+              accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
               id="formFile"
               {...register("file")}
             ></input>
