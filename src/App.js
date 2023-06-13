@@ -21,7 +21,7 @@ function App() {
       <Banner />
       <div className="box">
         <form onSubmit={handleSubmit(onSubmit)}>
-          <h3>Upload CSV Files less then 50 MB</h3>
+          <h3>Upload Excel Files less then 50 MB</h3>
           <div class="mb-4 mt-4">
             <input
               class="form-control"
